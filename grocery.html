@@ -1,0 +1,1925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mobile App</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <h1>TASHUKERU</h1>
+      <button
+        type="button"
+        class="btn cart-btn"
+        data-toggle="modal"
+        data-target="#cart"
+      >
+        <img
+          src="images/cart.png"
+          class="img-fluid mr-2"
+          height="20"
+          width="20"
+          alt="cart"
+        />
+        <span class="total-count"></span>
+      </button>
+    </header>
+    <!-- banner -->
+    <div>
+      <figure>
+        <img src="images/menu-img.jpg" class="img-fluid" alt="banner image" />
+      </figure>
+    </div>
+     <!-- menu -->
+ <section class="container-fluid filter-container">
+    <div class="full-gallery-section">
+       <div class="button-group mb-2">
+          
+      <a href="category.html"><border><i class="fa fa-arrow-left" aria-hidden="true"></i><b> GoBack </b></border></a>
+         
+        </div>
+      <div class="row grid pt-3">
+   
+		  
+		  <section class="container form-section">
+       <h2><u><font color="red">Grocery Items &nbsp; &nbsp; </font></u></h2>
+   <h6><font color="blue">Fill this Custom Product list</font></h6><br>
+       <script type="text/javascript">var submitted=false;</script>
+    
+    
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+		onload="if(submitted) {window.location='order.html';}"> </iframe> 
+						
+         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe96pJQmfGSIMz5exuN44ZLUWJrRiUDZVKSsHPcwWdcY2eC7g/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+        
+			 <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your Item List</label>
+          <textarea class="form-control" required rows="3" name="entry.1700370310" ></textarea>
+        </div>
+
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="John Agrawal" class="form-control" required name="entry.118874386" />
+        </div>
+		
+        <div class="form-group">
+          <label>Number</label>
+          <input type="text" class="form-control" placeholder="10digit Mobile Number" pattern="\d{10}" id="phone" required name="entry.846043866">
+        </div>
+		
+		<div class="form-group">
+          <label>Mail Address</label>
+          <input type="email" class="form-control" placeholder="example@xyz.com"  required name="entry.970917515">
+        </div>
+		<small id="emailHelp" class="form-text text-muted">We will send you an <b>"Order Invoice"</b> to your given mail id after your checkout.</small>
+		<br>
+		<div class="form-group">
+          <label>You are from</label> <Br>
+          <input type="radio"  name="entry.803090984" value="CTC" required> Cuttack &nbsp;
+       <input type="radio" name="entry.803090984" value="BBS" required> Bhubaneswar 
+        </div>
+		
+		
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Address with Pincode</label>
+          <textarea class="form-control" required rows="3" name="entry.1026089124" ></textarea>
+        </div>
+		
+       
+
+        <button type="submit" class="btn form-btn px-4">Check Out</button>
+      </form>
+    </section>
+	
+	
+	<div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>425/-<sup><strike>599</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Daawat Devaaya Basumati Rice 5kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>D.Devaaya 5kg</p>
+            <a href="#" data-name="Daawat_Devaaya_Basumati_Rice5kg" data-price="425"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>105/-<sup><strike>120</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Daawat pulav Basamati Rice 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>D.Pulav 1kg</p>
+            <a href="#" data-name="Daawat_pulav_Basamati_Rice1kg" data-price="105"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>385/-<sup><strike>495</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Daawat rozana gold Basamati Rice 5kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>D.Rozana 5kg</p>
+            <a href="#" data-name="Daawat_rozana_Basamati_Rice5kg" data-price="385"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>120/-<sup><strike>165</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Daawat Super Basumati Rice 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>D.Super 1kg</p>
+            <a href="#" data-name="Daawat_Super_Basumat_Rice1kg" data-price="120"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>399/-<sup><strike>500</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/India gate feast rozzana Basamati rice 5kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>IG.Feast 1kg</p>
+            <a href="#" data-name="India_Gate_Feast_Rozzana1kg" data-price="399"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>349/-<sup><strike>445</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/India gate regular choice Basamati 5kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>IG.Regular 5kg</p>
+            <a href="#" data-name="India_Gate_Regular5kg" data-price="349" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>129/-<sup><strike>135</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/India gate select Basamati Rice 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>IG.Select 1kg</p>
+            <a href="#" data-name="India_Gate_Select1kg" data-price="129" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>129/-<sup><strike>135</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/India gate select Basamati Rice 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>IG.Select 1kg</p>
+            <a href="#" data-name="India_Gate_Select1kg" data-price="129" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>480/-<sup><strike>500</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Kolam Rice 10kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Kolam 10kg</p>
+            <a href="#" data-name="KolamRice10kg" data-price="480" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>90/-<sup><strike>93</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Loose Govinda Bhog Rice 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Govinda 1kg</p>
+            <a href="#" data-name="Loose_Govinda_BhogRice1kg" data-price="90" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>40/-<sup><strike>45</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Loose jeera rice 1kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>JeeraRice 1kg</p>
+            <a href="#" data-name="Loose_jeera_rice1kg" data-price="40" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>48/-<sup><strike>55</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Loose kolam rice per kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>KolamRice/kg</p>
+            <a href="#" data-name="KolamRice1kg" data-price="48" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>48/-<sup><strike>55</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Loose kolam rice per kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>KolamRice/kg</p>
+            <a href="#" data-name="KolamRice1kg" data-price="48" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>32/-<sup><strike>35</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Loose sonamasuri rice per kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Sonamasuri/kg</p>
+            <a href="#" data-name="Sonamasuri1kg" data-price="32" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>30/-<sup><strike>33</strike></sup></span>
+            </div>
+            <img src="images/Rice_photoshop/Loose swarna rice 1kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Swarna Rice/kg</p>
+            <a href="#" data-name="SwarnaRice1kg" data-price="30" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+        <!---------------------------------------------------------------------------------------------------------------------->
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>225/-<sup><strike>235</strike></sup></span>
+            </div>
+            <img src="images/grocery/amul.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Butter 500g</p>
+            <a href="#" data-name="AmulPasteurisedButter_500g" data-price="225"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>75/-<sup><strike>100</strike></sup></span>
+            </div>
+            <img src="images/grocery/besan.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Besan 1kg</p>
+            <a href="#" data-name="Bessan_1kg" data-price="75" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>45/-</span>
+            </div>
+            <img src="images/grocery/chuda.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Chuda 1kg</p>
+            <a href="#" data-name="Chuda_1kg" data-price="45" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>25/-</span>
+            </div>
+            <img src="images/grocery/Muddi.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Mudi 250g</p>
+            <a href="#" data-name="Chuda_1kg" data-price="25" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>65/-<sup><strike>70</strike></sup></span>
+            </div>
+            <img src="images/grocery/chanadal.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>ChanaDal/kg</p>
+            <a href="#" data-name="ChanaDal_1kg" data-price="65" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>110/-<sup><strike>115</strike></sup></span>
+            </div>
+            <img src="images/grocery/moogdal.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>MoongDal/kg</p>
+            <a href="#" data-name="MoongDal_1kg" data-price="110" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>101/-<sup><strike>104</strike></sup></span>
+            </div>
+            <img src="images/grocery/uradgota.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>UradGota/kg</p>
+            <a href="#" data-name="Uradgota_1kg" data-price="101" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>93/-<sup><strike>96</strike></sup></span>
+            </div>
+            <img src="images/grocery/toordal.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>ToorDal/kg</p>
+            <a href="#" data-name="toordal_1kg" data-price="96" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>19/-<sup><strike>20</strike></sup></span>
+            </div>
+            <img src="images/grocery/salt.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>TataSalt/kg</p>
+            <a href="#" data-name="Tatasalt_1kg" data-price="19" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>42/-<sup><strike>45</strike></sup></span>
+            </div>
+            <img src="images/grocery/sugar.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Sugar/kg</p>
+            <a href="#" data-name="Sugar_1kg" data-price="42" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>65/-</span>
+            </div>
+            <img src="images/grocery/jaggerypowder.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Jaggery/kg</p>
+            <a href="#" data-name="PatanjaliJaggeryPowder_1kg" data-price="65" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>174/-<sup><strike>180</strike></sup></span>
+            </div>
+            <img src="images/grocery/Sugarfreegold300pellets.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>S.F.Gold</p>
+            <a href="#" data-name="SugarFreeGold300pellets" data-price="174" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>135/-<sup><strike>140</strike></sup></span>
+            </div>
+            <img src="images/grocery/Sugarfreegoldpowderconcentrate100g.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>SFG Powder</p>
+            <a href="#" data-name="SugarFreeGoldPowderConcentrate100g" data-price="135"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <!---edited by balgopal-->
+
+        <!-----grocery----->
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>19/-<sup><strike>20</strike></sup></span>
+            </div>
+            <img src="images/grocery/Vim dishwash bar 300 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Vim dishwash bar 300 gram</p>
+            <a href="#" data-name="Vim_dishwash_bar_300_gram" data-price="19" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>29/-<sup><strike>30</strike></sup></span>
+            </div>
+            <img src="images/grocery/Britannia pure magic chocolush cream biscuits 75gm.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Britannia pure magic chocolush cream biscuits 75gm</p>
+            <a href="#" data-name="Britannia_pure_magic_chocolush_cream_biscuits_75gm" data-price="29"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>10/-<sup><strike>10</strike></sup></span>
+            </div>
+            <img src="images/grocery/Parle g biscuits 110 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Parle g biscuits 110 gram</p>
+            <a href="#" data-name="Parle_g_biscuits_110_gram" data-price="10" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>10/-<sup><strike>10</strike></sup></span>
+            </div>
+            <img src="images/grocery/Parle Monaco biscuits 75.4 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Parle Monaco biscuits 75.4 gram</p>
+            <a href="#" data-name="Parle_Monaco_biscuits_75.4_gram" data-price="10"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>28/-<sup><strike>30</strike></sup></span>
+            </div>
+            <img src="images/grocery/Britannia bourbon the original cream biscuits 150 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Britannia bourbon the original cream biscuits 150 gram</p>
+            <a href="#" data-name="Britannia_bourbon_the_original_cream_biscuits_150_gram" data-price="28"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>39/-<sup><strike>40</strike></sup></span>
+            </div>
+            <img src="images/grocery/Britannia Vita Marie gold biscuits 300 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Britannia Vita Marie gold biscuits 300 gram</p>
+            <a href="#" data-name="Britannia_Vita_Marie_gold_biscuits_300_gram" data-price="39"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>29/-<sup><strike>30</strike></sup></span>
+            </div>
+            <img src="images/grocery/Cadbury Oreo original vanilla cream biscuits 120 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Cadbury Oreo original vanilla cream biscuits 120 gram</p>
+            <a href="#" data-name="Cadbury_Oreo_original_vanilla_cream_biscuits_120_gram" data-price="29"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>85/-<sup><strike>100</strike></sup></span>
+            </div>
+            <img src="images/grocery/Parle Platina hide and seek chocolate chips cookies 350 gram.jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Parle Platina hide and seek chocolate chips cookies 350 gram</p>
+            <a href="#" data-name="Parle_Platina_hide_and_seek_chocolate_chips_cookies_350_gram" data-price="85"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>29/-<sup><strike>30</strike></sup></span>
+            </div>
+            <img src="images/grocery/Parle hide and seek chocolate chip cookies 100 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Parle hide and seek chocolate chip cookies 100 gram</p>
+            <a href="#" data-name="Parle_hide_and_seek_chocolate_chip_cookies_100_gram" data-price="29"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery bis">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>99/-<sup><strike>120</strike></sup></span>
+            </div>
+            <img src="images/grocery/Britannia good day cashew cookies 600 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Britannia good day cashew cookies 600 gram</p>
+            <a href="#" data-name="Britannia_good_day_cashew_cookies_600_gram" data-price="99"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>24/-<sup><strike>25</strike></sup></span>
+            </div>
+            <img src="images/grocery/Lifebuoy immunity boosting total 10 hand sanitizer 50ml.jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Lifebuoy immunity boosting total 10 hand sanitizer 50ml</p>
+            <a href="#" data-name="Lifebuoy_immunity_boosting_total_10_hand_sanitizer_50ml" data-price="25"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>165/-<sup><strike>179</strike></sup></span>
+            </div>
+            <img src="images/grocery/Lizol disinfectant surface and floor cleaner liquid citrus.jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Lizol disinfectant surface and floor cleaner liquid citrus</p>
+            <a href="#" data-name="Lizol_disinfectant_surface_and_floor_cleaner_liquid_citrus" data-price="165"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>125/-<sup><strike>150</strike></sup></span>
+            </div>
+            <img src="images/grocery/Cycle all in one Assorted agarbatti 191 pcs.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Cycle all in one Assorted agarbatti 191 pcs</p>
+            <a href="#" data-name="Cycle_all_in_one_Assorted_agarbatti_191_pcs" data-price="125"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>152/-<sup><strike>155</strike></sup></span>
+            </div>
+            <img src="images/grocery/Vim lemon concentrated dishwash gel 750 ml.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Vim lemon concentrated dishwash gel 750 ml</p>
+            <a href="#" data-name="Vim_lemon_concentrated_dishwash_gel_750_ml" data-price="152"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>205/-<sup><strike>225</strike></sup></span>
+            </div>
+            <img src="images/grocery/Surf Excel matic top load detergent powder 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Surf Excel matic top load detergent powder 1kg</p>
+            <a href="#" data-name="Surf_Excel_matic_top_load_detergent_powder_1kg" data-price="205"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>103/-<sup><strike>106</strike></sup></span>
+            </div>
+            <img src="images/grocery/Tide plus lemon and mint detergent powder 1kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Tide plus lemon and mint detergent powder 1kg</p>
+            <a href="#" data-name="Tide_plus_lemon_and_mint_detergent_powder_1kg" data-price="103"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>10/-<sup><strike>10</strike></sup></span>
+            </div>
+            <img src="images/grocery/Surf Excel detergent bar 100 gram MRP 10 -10.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Surf Excel detergent bar 100 gram MRP 10 -10</p>
+            <a href="#" data-name="Surf_Excel_detergent_bar_100_gram_MRP_10-10" data-price="10"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>282/-<sup><strike>288</strike></sup></span>
+            </div>
+            <img src="images/grocery/Ariel complete detergent powder 1kg (get extra 500 gram free).jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Ariel complete detergent powder 1kg (get extra 500 gram free)</p>
+            <a href="#" data-name="Ariel_complete_detergent_powder_1kg_(get_extra_500_gram_free)" data-price="282"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>24/-<sup><strike>25</strike></sup></span>
+            </div>
+            <img src="images/grocery/Surf Excel detergent bar 250 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Surf Excel detergent bar 250 gram</p>
+            <a href="#" data-name="Surf_Excel_detergent_bar_250_gram" data-price="24"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>435/-<sup><strike>496</strike></sup></span>
+            </div>
+            <img src="images/grocery/Surf Excel easy wash detergent powder 4kg.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Surf Excel easy wash detergent powder 4kg</p>
+            <a href="#" data-name="Surf_Excel_easy_wash_detergent_powder_4kg" data-price="435"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>112/-<sup><strike>115</strike></sup></span>
+            </div>
+            <img src="images/grocery/Red Bull energy drink 250 ml can.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Red Bull energy drink 250 ml can</p>
+            <a href="#" data-name="Red_Bull_energy_drink_250_ml_can" data-price="112"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>90/-<sup><strike>100</strike></sup></span>
+            </div>
+            <img src="images/grocery/Real fruit power Guava nectar 1 litre.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Real fruit power Guava nectar 1 litre</p>
+            <a href="#" data-name="Real_fruit_power_Guava_nectar_1_litre" data-price="90"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>951/-<sup><strike>975</strike></sup></span>
+            </div>
+            <img src="images/grocery/Pediasure Vanilla delight health drink powder 750 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Pediasure Vanilla delight health drink powder 750 gram</p>
+            <a href="#" data-name="Pediasure_Vanilla_delight_health_drink_powder_750_gram" data-price="951"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>505/-<sup><strike>550</strike></sup></span>
+            </div>
+            <img src="images/grocery/Proteinx chocolate 400 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Proteinx_chocolate_400_gram</p>
+            <a href="#" data-name="Proteinx_chocolate_400_gram" data-price="505"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>230/-<sup><strike>280</strike></sup></span>
+            </div>
+            <img src="images/grocery/Complan royal chocolate 500 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Complan royal chocolate 500 gram</p>
+            <a href="#" data-name="Complan_royal_chocolate_500_gram" data-price="230"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>108/-<sup><strike>110</strike></sup></span>
+            </div>
+            <img src="images/grocery/Bournvita 200 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Bournvita 200 gram</p>
+            <a href="#" data-name="Bournvita_200_gram" data-price="108" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>155/-<sup><strike>160</strike></sup></span>
+            </div>
+            <img src="images/grocery/Taj Mahal tea 250 gram (carton).jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Taj Mahal_tea_250_gram_(carton)</p>
+            <a href="#" data-name="Taj_Mahal_tea_250_gram_(carton)" data-price="155"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>405/-<sup><strike>428</strike></sup></span>
+            </div>
+            <img src="images/grocery/Horlicks classic malt health drink powder 1kg (bIB).jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Horlicks classic malt health drink powder 1kg (bIB)</p>
+            <a href="#" data-name="Horlicks_classic_malt_health_drink_powder_1kg_(bIB)" data-price="428"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>90/-<sup><strike>95</strike></sup></span>
+            </div>
+            <img src="images/grocery/Sprite 2.25 litre.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Sprite_2.25_litre</p>
+            <a href="#" data-name="Sprite_2.25_litre" data-price="90" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>138/-<sup><strike>140</strike></sup></span>
+            </div>
+            <img src="images/grocery/Nescafe classic instant coffee 50 gram (pouch).jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Nescafe classic instant coffee 50 gram (pouch)</p>
+            <a href="#" data-name="Nescafe_classic_instant_coffee_50_gram_(pouch)" data-price="138"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>191/-<sup><strike>199</strike></sup></span>
+            </div>
+            <img src="images/grocery/Tata premium tea 500 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Tata premium tea 500 gram</p>
+            <a href="#" data-name="Tata_premium_tea_500_gram" data-price="191" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>205/-<sup><strike>220</strike></sup></span>
+            </div>
+            <img src="images/grocery/Tata premium dust tea 500 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Tata premium dust tea 500 gram</p>
+            <a href="#" data-name="Tata_premium_dust_tea_500_gram" data-price="205"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>449/-<sup><strike>470</strike></sup></span>
+            </div>
+            <img src="images/grocery/Red label leaf tea 1 kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Red label leaf tea 1 kg</p>
+            <a href="#" data-name="Red_label_leaf_tea_1_kg" data-price="449" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>125/-<sup><strike>140</strike></sup></span>
+            </div>
+            <img src="images/grocery/Lotte choco pie cream filled biscuit 336 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Lotte choco pie cream filled biscuit 336 gram</p>
+            <a href="#" data-name="Lotte_choco_pie_cream_filled_biscuit_336_gram" data-price="125"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>10/-<sup><strike>10</strike></sup></span>
+            </div>
+            <img src="images/grocery/Kellogg's chocos 26 gram (pouch).jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Kellogg's chocos 26 gram (pouch)</p>
+            <a href="#" data-name="Kellogg's_chocos_26_gram_(pouch)" data-price="10"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>175/-<sup><strike>190</strike></sup></span>
+            </div>
+            <img src="images/grocery/Quaker oats 1kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Quaker oats 1kg</p>
+            <a href="#" data-name="Quaker_oats_1kg" data-price="175" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>55/-<sup><strike>65</strike></sup></span>
+            </div>
+            <img src="images/grocery/Top ramen new masala instant noodles 420 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Top ramen new masala instant noodles 420 gram</p>
+            <a href="#" data-name="Top_ramen_new_masala_instant_noodles_420_gram" data-price="55"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>12/-<sup><strike>12</strike></sup></span>
+            </div>
+            <img src="images/grocery/Maggi 2 minute masala instant noodles 70 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Maggi 2 minute masala instant noodles 70 gram</p>
+            <a href="#" data-name="Maggi_2_minute_masala_instant_noodles_70_gram" data-price="12"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>75/-<sup><strike>80</strike></sup></span>
+            </div>
+            <img src="images/grocery/Loose spiral pasta 1kg - 75 -80.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Loose spiral pasta 1kg - 75 -80</p>
+            <a href="#" data-name="Loose_spiral_pasta_1kg-75-80" data-price="75"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>135/-<sup><strike>150</strike></sup></span>
+            </div>
+            <img src="images/grocery/Nutalite soya chunks 1kg -135- 150.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Nutalite soya chunks 1kg -135- 150</p>
+            <a href="#" data-name="Nutalite_soya_chunks_1kg-135-150-75-80" data-price="135"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>85/-<sup><strike>90</strike></sup></span>
+            </div>
+            <img src="images/grocery/Loose soya chunks 1kg.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Loose soya chunks 1kg</p>
+            <a href="#" data-name="Loose_soya_chunks_1kg" data-price="85" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>24/-<sup><strike>25</strike></sup></span>
+            </div>
+            <img src="images/grocery/Lux velvet touch bar soap with Jasmine and almond oil 100 gram.jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Lux velvet touch bar soap with Jasmine and almond oil 100 gram</p>
+            <a href="#" data-name="Lux_velvet_touch_bar_soap_with_Jasmine_and_almond_oil_100_gram" data-price="24"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>46/-<sup><strike>47</strike></sup></span>
+            </div>
+            <img src="images/grocery/Medimix ayurvedic sandal soap with eladi oil 125 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Medimix ayurvedic sandal soap with eladi oil 125 gram</p>
+            <a href="#" data-name="Medimix_ayurvedic_sandal_soap_with_eladi_oil_125_gram" data-price="46"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>37/-<sup><strike>38</strike></sup></span>
+            </div>
+            <img src="images/grocery/Pears pure and gentle soap with natural oils 75 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Pears pure and gentle soap with natural oils 75 gram</p>
+            <a href="#" data-name="Pears_pure_and_gentle_soap_with_natural_oils_75_gram" data-price="37"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>24/-<sup><strike>25</strike></sup></span>
+            </div>
+            <img src="images/grocery/Lux soft touch bar soap 100 gram.jpg" alt="Item of Tashukeru" class="img-fluid" />
+            <p>Lux soft touch bar soap 100 gram</p>
+            <a href="#" data-name="Lux_soft_touch_bar_soap_100_gram" data-price="24"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>135/-<sup><strike>140</strike></sup></span>
+            </div>
+            <img src="images/grocery/Pears pure and gentle soap with natural oils 125 gram.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Pears pure and gentle soap with natural oils 125 gram</p>
+            <a href="#" data-name="Pears_pure_and_gentle_soap_with_natural_oils_125_gram" data-price="135"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>9/-<sup><strike>10</strike></sup></span>
+            </div>
+            <img src="images/grocery/Lifebuoy total 10 germ protection soap with active silver formula 56 gram.jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Lifebuoy total 10 germ protection soap with active silver formula 56 gram</p>
+            <a href="#" data-name="Lifebuoy_total_10_germ_protection_soap_with_active_silver_formula_56_gram"
+              data-price="9" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>34/-<sup><strike>35</strike></sup></span>
+            </div>
+            <img src="images/grocery/Cinthol original deodorant and complexion soap 100 gram.jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Cinthol original deodorant and complexion soap 100 gram</p>
+            <a href="#" data-name="Cinthol_original_deodorant_and_complexion_soap_100_gram" data-price="135"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>101/-<sup><strike>105</strike></sup></span>
+            </div>
+            <img src="images/grocery/Medimix ayurvedic 18 herbs classic soap 125 gram (pack of 3).jpg"
+              alt="Item of Tashukeru" class="img-fluid" />
+            <p>Medimix ayurvedic 18 herbs classic soap 125 gram (pack of 3)</p>
+            <a href="#" data-name="Medimix_ayurvedic_18_herbs_classic_soap_125_gram_(pack_of_3)" data-price="101"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>43/-<sup><strike>45</strike></sup></span>
+            </div>
+            <img src="images/grocery/Dettol original liquid hand wash refill 175 ml.jpg" alt="Item of Tashukeru"
+              class="img-fluid" />
+            <p>Dettol original liquid hand wash refill 175 ml</p>
+            <a href="#" data-name="Dettol_original_liquid_hand_wash_refill_175_ml" data-price="43"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+
+        <!-------------------------- HairOil ------------------------->
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>180/-<sup><strike>199</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/Parachute500.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Parachute 0.5L</p>
+            <a href="#" data-name="Parachute_100%_pureCoconutOil_500ml" data-price="180"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>36/-<sup><strike>39</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/Parachute100.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Parachute 100ml</p>
+            <a href="#" data-name="Parachute100%_pureCoconutOil_100ml" data-price="36"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>120/-<sup><strike>125</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/Parachuteadvanced250ml.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>Parachute 120ml</p>
+            <a href="#" data-name="ParachuteAdvanced_AloeVeraEnrichedCoconut_HairOil_250ml " data-price="120"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>72/-<sup><strike>75</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/Parachute150.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Parachute 150ml</p>
+            <a href="#" data-name="ParachuteAdvanced_AloeVeraEnrichedCoconut_HairOil_150ml " data-price="75"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>37/-<sup><strike>38</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/ParachuteAdvanced90ml.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>Parachute 90ml</p>
+            <a href="#" data-name="ParachuteAdvanced_Jasmine_Coconut_Non-Sticky_Hair_Oil_90ml" data-price="37"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>85/-<sup><strike>88</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/amla180.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>D.Amla 180ml</p>
+            <a href="#" data-name="DaburAmla_HairOil_180ml " data-price="85" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>191/-<sup><strike>199</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/amla150.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>D. Amla 450ml</p>
+            <a href="#" data-name="DaburAmla_450ml " data-price="191" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>62/-<sup><strike>65</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/dabur100.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>D.Almond 100ml</p>
+            <a href="#" data-name="Dabur_Almond_damage_free_hair_oil_100ml" data-price="62"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>251/-<sup><strike>280</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/dabur500.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>D.Almond 500ml</p>
+            <a href="#" data-name="Dabur_Almond_damage_free_hair_oil_100ml" data-price="251"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>62/-<sup><strike>65</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/bajaj100.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>B.Almond 100ml</p>
+            <a href="#" data-name="Bajaj_Almond_hair_oil_100ml" data-price="62"
+              class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>165/-<sup><strike>175</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/bajaj300.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>B.Almond 300ml</p>
+            <a href="#" data-name="Bajaj_Almond_hair_oil_300ml" data-price="165"
+              class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>145/-<sup><strike>155</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/haircare.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Hair&Care 300ml</p>
+            <a href="#" data-name="Hair_N_care_Moisturising_HairOil" data-price="145"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>161/-<sup><strike>182</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/navaratna.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Navaratna 300ml</p>
+            <a href="#" data-name="Navaratna_300ml" data-price="161" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>38/-<sup><strike>40</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/salimar100.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Salimar 100ml</p>
+            <a href="#" data-name="Salimar_100ml" data-price="38" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>36/-<sup><strike>37</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/GarnierBlack.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>GarnierBlack</p>
+            <a href="#" data-name="Salimar_100ml" data-price="36" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>175/-<sup><strike>180</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/garniercolourmen.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>GB Men</p>
+            <a href="#" data-name="GarnierColorNaturals-crem-RocheAmmoniaFreeHair-colour-burgundy(3.16)70ml+60g"
+              data-price="175" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>112/-<sup><strike>115</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/garniercolour.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>GB Women</p>
+            <a href="#" data-name="GarnierColorNaturals-crem-RocheAmmoniaFreeHair-colour-burgundy(3.16)70ml+60g"
+              data-price="112" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>29/-<sup><strike>30</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/godrejexpert.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>GodrejExpert</p>
+            <a href="#" data-name="GarnierBlackNaturals_AmmoniaFreeHair_color,OriginalBlack(20g+20ml)" data-price="29"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>34/-<sup><strike>35</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/godrejhena.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>NupurMehendi</p>
+            <a href="#" data-name="NupurMehendi" data-price="34" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>38/-<sup><strike>40</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/indicaeasy.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Indica Easy</p>
+            <a href="#" data-name="IndicaEasySampoo_25ml" data-price="38" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 hair grocery">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>242/-<sup><strike>250</strike></sup></span>
+            </div>
+            <img src="images/Hairoil_photoshop/livion.jpg" alt="product of Tashukeru" class="img-fluid" />
+            <p>Hair Serum</p>
+            <a href="#" data-name="Livion_Hair_Serum_100ml" data-price="242" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+
+        <!--------------------------Oralcare------------------------->
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>121/-<sup><strike>150</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Closeup Ever Fresh Red Hot Gel Toothpaste 150 g(pack of 2).jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Closeup 300g</p>
+            <a href="#" data-name="Closeup_Ever_Fresh150g(pack_of_2;150gX2=300g)" data-price="121"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>80/-<sup><strike>85</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Closeup ever fresh red hot gel toothpaste 150 gram.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Closeup 150g</p>
+            <a href="#" data-name="Closeup_Ever_Fresh150g" data-price="80" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>135/-<sup><strike>164</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Colgate Maxfresh Blue Saverpack 300g.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>Maxfresh 300g</p>
+            <a href="#" data-name="Maxfresh_Blue_300g" data-price="135" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>242/-<sup><strike>250</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Colgate strong teeth dental cream toothpaste 200 gram.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Strongteeth 200g</p>
+            <a href="#" data-name="Colgate_strong_teeth_200g" data-price="21" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>92/-<sup><strike>95</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Colgate strong teeth dental cream toothpaste 500g saver pack.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Strongteeth 500g</p>
+            <a href="#" data-name="Colgate_strong_teeth_500g" data-price="92" class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>81/-<sup><strike>95</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Colgate Swarna Vedshakti Toothpaste 400g.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>SwarnaVedshakti 200g</p>
+            <a href="#" data-name="Colgate_SwarnaVedshakti_200g" data-price="81"
+              class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>141/-<sup><strike>170</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Colgate Swarna Vedshakti Toothpaste 400g.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>SwarnaVedshakti 400g</p>
+            <a href="#" data-name="Colgate_SwarnaVedshakti_400g" data-price="141"
+              class="add-to-cart btn btn-secondary">Add
+              +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>85/-<sup><strike>99</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Colgate zigzag charcoal toothbrush (pack of 4).jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Zigzag</p>
+            <a href="#" data-name="Colgate_Zigzag_Pack4" data-price="85" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>133/-<sup><strike>138</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Dabur red toothpaste ( 200 +100) gram.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>DaburRed 300g</p>
+            <a href="#" data-name="DaburRed_300g" data-price="133" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>95/-<sup><strike>97</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Dabur red toothpaste 200 gram.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>DaburRed 200g</p>
+            <a href="#" data-name="DaburRed_200g" data-price="95" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>53/-<sup><strike>55</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Listerine cool mint mouthwash 80ml.jpg" alt="product of Tashukeru"
+              class="img-fluid" />
+            <p>Mouthwash 80ml</p>
+            <a href="#" data-name="Listerine_cool_mint_mouthwash_80ml" data-price="53"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>121/-<sup><strike>146</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Meswak complete oral care family pack  toothpaste(200+100)g.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Meswak 300g</p>
+            <a href="#" data-name="MeswakToothpaste" data-price="121" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>85/-</span>
+            </div>
+            <img src="images/Oralcare_photoshop/Patanjali dant kanti dental cream 200 gram.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>DantKanti 200g</p>
+            <a href="#" data-name="DantKanti_200g" data-price="85" class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>115/-<sup><strike>129</strike></sup></span>
+            </div>
+            <img
+              src="images/Oralcare_photoshop/Pepsodent Germi check +cavity protection toothpaste 150 gram ( pack of 2).jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>Pepsodent 300g</p>
+            <a href="#" data-name="Pepsodent_Germicheck_CravityProtection_Pack_150g_PackOfTwo" data-price="115"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>108/-<sup><strike>110</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Sensodyne sensitive fresh gel toothpaste 75 gram.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>SensodyneGel 75g</p>
+            <a href="#" data-name="SensodyneSensitiveFreshGelToothpaste_75gram" data-price="108"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>108/-<sup><strike>110</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Sensodyne sensitive fresh mint toothpaste 70 gram-.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>SensodyneMint 70g</p>
+            <a href="#" data-name="SensodyneSensitiveFresh_MintToothpaste_70gram" data-price="108"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-4 oral">
+
+          <div class="our-gallery filter-card">
+            <div class="price-tag">
+              <span>185/-<sup><strike>190</strike></sup></span>
+            </div>
+            <img src="images/Oralcare_photoshop/Sensodyne sensitive fresh mint toothpaste 70 gram-.jpg"
+              alt="product of Tashukeru" class="img-fluid" />
+            <p>SensodyneMint 150g</p>
+            <a href="#" data-name="SensodyneSensitiveFresh_MintToothpaste_150gram" data-price="185"
+              class="add-to-cart btn btn-secondary">Add +</a>
+          </div>
+          </a>
+        </div>
+	
+	<br>
+	<br>
+	
+	.
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="modal-title" id="exampleModalLabel">Cart</p>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div class="d-flex justify-content-between align-items-center">
+              <h5>Total Price:</h5>
+              <div class="d-flex">
+                <h5 class="mr-1">₹</h5>
+                <h5 class="total-cart"></h5>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="checkout.html">
+              <button type="button" class="btn order-now">Order Now</button>
+            </a>
+			<br>
+	<br>
+	<br>
+	
+	Invoice Generation for your order.<br>
+	<i>Tashukeru, All Right Reserved</i>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- isotope for gallery -->
+    <script src="js/isotope.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        let $btns = $('.filter-container .button-group button');
+
+        $btns.click(function (e) {
+          $('.filter-container .button-group button').removeClass('active');
+          e.target.classList.add('active');
+
+          let selector = $(e.target).attr('data-filter');
+          $('.filter-container .grid').isotope({
+            filter: selector,
+          });
+          return false;
+        });
+      });
+    </script>
+    <script src="js/script.js"></script>
+	<br>
+	<br>
+	<br><br><br>
+  </body>
+</html>
